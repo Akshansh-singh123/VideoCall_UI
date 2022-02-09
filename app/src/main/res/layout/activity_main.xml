@@ -27,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_100"
         android:background="@drawable/black_gradient"
+        android:clickable="true"
         android:elevation="@dimen/dp_2"
         app:layout_constraintTop_toTopOf="parent">
         <com.google.android.material.card.MaterialCardView
@@ -117,6 +118,7 @@
         android:id="@+id/bottomPanel"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_110"
+        android:clickable="true"
         android:background="@drawable/ic_bottom_panel_bg"
         android:elevation="@dimen/dp_2"
         app:layout_constraintBottom_toBottomOf="parent">
